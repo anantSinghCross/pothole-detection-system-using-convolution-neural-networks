@@ -11,4 +11,4 @@ Detecting potholes on roads using images processed through a CNN model. This is 
 
 ## Future Work
 
-In future I aim to make it a robust realtime system which will use OpenCV and YOLO.
+In future I aim to make it a robust realtime system which will use OpenCV and a bit more advanced NN implementation.
