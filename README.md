@@ -5,7 +5,7 @@ Detecting potholes on roads using images processed through a CNN model. This is 
 ## What's In The Repo
 
 * *My Dataset* - Contains the images which were used for training the model
-* *Predictor.py* - The code that loads the model (*sample.h5*), loads the dataset and uses it for prediction
+* *Predictor.py* - The code that loads the model (*sample.h5*), loads the testing dataset and uses it for prediction
 * *main.py* - The code that creates the model, trains it and saves it as *sample.h5*
 * *sample.h5* - The saved model that is loaded for prediction
 
