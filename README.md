@@ -14,11 +14,11 @@ Detecting potholes on roads using live video feed processed through a CNN model.
 
 * *main.py* - This module’s main aim is to create, prepare and train the model. Internally, also it prepares the dataset which it loads from a specific location in the machine.
 Preparing the dataset includes:
-   - Extracting all the images from a specified location.
-   - Preprocessing of images which includes:
-     - Converting images from colored to grayscale (to reduce processing power)
-     - Resizing all the images to the same dimensions i.e. 300x300 px
-   - Creating corresponding output values for each image from the dataset which is will be used for training.
+   1. Extracting all the images from a specified location.
+   2. Preprocessing of images which includes:
+      - Converting images from colored to grayscale (to reduce processing power)
+      - Resizing all the images to the same dimensions i.e. 300x300 px
+   3. Creating corresponding output values for each image from the dataset which is will be used for training.
    
 * *Predictor.py* - This module’s main aim is to predict the presence of potholes in a certain number of images. The module loads the model and the images from the machine. The images are again preprocessed in the same manner as in trainer module. The images are fed into the model and predictions and accuracies are printed on the console.
 
