@@ -1,6 +1,6 @@
 # Pothole Detection System (Real-time Image Classification)
 
-Detecting potholes on roads using live video feed processed through a CNN model. This is (now) a realtime system. Note that the model does not tell the number of potholes in the images. That's something for the future and I'll use YOLO (You Only Look Once architecture) OR Mask-RCNN for that.
+Detecting potholes on roads using live video feed processed through a CNN model. This is (now) a realtime system. The model was trained on my laptop's GPU (NVIDIA GTX 1650 4GB). Note that the model does not tell the number of potholes in the images. That's something for the future and I'll use YOLO (You Only Look Once architecture) OR Mask-RCNN for that.
 
 ## Contents Of This Readme
 
