@@ -41,7 +41,7 @@ Preparing the dataset includes:
 
 ## Future Work
 
-If, in future, I work on this project, I will most likely work on finding out the number of potholes in a particular frame of the video feed and also creating bounding boxes around the potholes so that they are identifiable.
+If, in future, I decide work on this project, I will most likely work on finding out the number of potholes in a particular frame of the video feed and also creating bounding boxes around the potholes so that they are identifiable.
 
 ### Note
 
