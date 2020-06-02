@@ -10,6 +10,17 @@ Detecting potholes on roads using live video feed processed through a CNN model.
 * *main.py* - The code that creates the model, trains it and saves it as *sample.h5*
 * *sample.h5* - The saved model that is loaded for prediction
 
+## Check Your Libraries
+
+* `Numpy`
+* `Tensorflow`
+* `Keras`
+* `Scikit-learn`
+* `OpenCV`
+* `Imutils`
+
+*Instructions on how to install these libraries can be found extensively on internet.*
+
 ## Working of Files in *Real-time Files* Folder
 
 * *main.py* - This module’s main aim is to create, prepare and train the model. Internally, also it prepares the dataset which it loads from a specific location in the machine.
@@ -31,3 +42,7 @@ Preparing the dataset includes:
 ## Future Work
 
 If, in future, I work on this project, I will most likely work on finding out the number of potholes in a particular frame of the video feed and also creating bounding boxes around the potholes so that they are identifiable.
+
+### Note
+
+Since the dataset is web-scrapped from Google Images it is highly inconsistent. Therefore, it is recommended to use a proper dataset for training the model. There are a few good pothole datasets on kaggle but I didn't use them due to their huge size.
