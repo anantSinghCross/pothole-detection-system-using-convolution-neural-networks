@@ -29,7 +29,7 @@ Preparing the dataset includes:
    2. Preprocessing of images which includes:
       - Converting images from colored to grayscale (to reduce processing power)
       - Resizing all the images to the same dimensions i.e. 300x300 px
-   3. Creating corresponding output values for each image from the dataset which is will be used for training.
+   3. Creating corresponding output values for each image from the dataset which will be used for training.
    
 * *Predictor.py* - This module’s main aim is to predict the presence of potholes in a certain number of images. The module loads the model and the images from the machine. The images are again preprocessed in the same manner as in trainer module. The images are fed into the model and predictions and accuracies are printed on the console.
 
