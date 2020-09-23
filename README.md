@@ -53,4 +53,4 @@ If, in future, I decide work on this project, I will most likely work on finding
 
 ### Note
 
-Since the dataset is web-scrapped from Google Images it is highly inconsistent. Therefore, it is recommended to use a proper dataset for training the model. There are a few good pothole datasets on kaggle but I didn't use them due to their huge size.
+Since the dataset is web-scrapped from Google Images it is highly inconsistent. Therefore, it is recommended to use a proper dataset for training the model. There are a few good pothole datasets on kaggle but I didn't use them due to their huge size. If you're going to use it for research purposes the web-scrapped dataset won't suffice.
